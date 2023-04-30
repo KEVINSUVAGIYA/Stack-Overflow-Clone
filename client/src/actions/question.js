@@ -31,14 +31,14 @@ export const deleteQuestion = (id, navigate) => async (dispatch) => {
   }
 } 
 
-export const voteQuestion = (id, value, userId) => async (dispatch) => {
+export const voteQuestion = (id, value) => async (dispatch) => {
   try {
-    const { data } = await api.voteQuestion(id, value, userId)
-    dispatch(fetchAllQuestions())
+    await api.voteQuestion(id, value);
+    dispatch(fetchAllQuestions());
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
 export const postAnswer = (answerData) => async (dispatch) => {
   try {
