@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 
 import userRoutes from './routes/users.js'
 import questionRoutes from './routes/Questions.js'
-import answerRoutes from './routes/Answer.js'
+import answerRoutes from './routes/Answers.js'
 
 const app = express();
 dotenv.config();
