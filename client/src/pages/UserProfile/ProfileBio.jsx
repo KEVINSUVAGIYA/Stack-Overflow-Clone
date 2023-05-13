@@ -13,8 +13,7 @@ const ProfileBio = ({ currentProfile }) => {
           </>
         ) : (
           <p>0 tags watched</p>
-        )
-        }
+        )}
       </div>
       <div>
         {currentProfile?.about ? (

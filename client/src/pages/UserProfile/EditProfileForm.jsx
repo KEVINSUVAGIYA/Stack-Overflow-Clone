@@ -64,4 +64,4 @@ const EditProfileForm = ({ currentUser, setSwitch }) => {
   );
 };
 
-export default EditProfileForm
+export default EditProfileForm;

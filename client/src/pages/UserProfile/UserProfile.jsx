@@ -28,8 +28,8 @@ const UserProfile = ({ slideIn, handleSlideIn }) => {
               <Avatar
                 backgroundColor="purple"
                 color="white"
-                fontSize="40px"
-                px="50px"
+                fontSize="50px"
+                px="40px"
                 py="30px"
               >
                 {currentProfile?.name.charAt(0).toUpperCase()}
